@@ -1,6 +1,6 @@
 #Dictionaries in python
 
-#creating a dictionary
+#creating a dict
 
 dict = {'Joe':14, 'Adam':26, 'Émily':56}
 
