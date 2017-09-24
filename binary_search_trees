@@ -1,0 +1,25 @@
+#binary search trees
+
+class Node(object):
+    def __init__(self,data):                #constructer
+        self.data=data;
+        self.leftchild = None;              #references
+        self.rightchild = None;
+
+
+
+class Binarysearchtree(object):
+    def __init__(self):
+        self.root =None;                    #root node
+
+# ----------------------insert a new node to binary search tree------------------------
+    def insert(self, data):
+        if not self.root:                   #if entered no. is not a root node
+            self.root = Node(data);         # taking reference from root node
+        else:
+            self.insertNode(data,self.root);
+
+
+    def insertNode(self, data, Node):
+        if data<node.data:                 #check wheather i/p goes to left or right
+            
